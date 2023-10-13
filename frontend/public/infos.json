@@ -1,0 +1,21 @@
+[
+    {
+        "id": "1",
+        "title": "O nás",
+        "text": "R.R.R. Centrum od svého založení v roce 1994 funguje jako poskytovatel péče v oboru fyzioterapie."
+    },
+    {
+        "id": "2",
+        "title": "R.R.R. Centrum a studenti",
+        "text": "Pracoviště je využíváno také pro praktickou výuku studentů oboru fyzioterapie na Fakultě tělesné kultury Univerzity Palackého v Olomouci."
+    },
+    {
+        "id": "3",
+        "title": "Aktuality ve fyzioterapii",
+        "text": "Katedra fyzioterapie FTK UP spolu s RRR Centrem a Českou kineziologickou společností pořádá odbornou konferenci.",
+        "link": {
+            "alias": "Zjistit víc!",
+            "to": "https://konference.ftk.upol.cz/2023/aktuality-ve-fyzioterapii/"
+        }
+    }
+]

@@ -1,20 +1,18 @@
 import { Box, Button, Grid, useTheme } from '@mui/material';
 import React from 'react';
-import { getItems } from '../selectors';
 import { useDispatch, useSelector } from 'react-redux';
 import { createItem } from '../api/createItem';
 import { ThunkDispatch } from 'redux-thunk';
 import { AnyAction } from 'redux';
 import { initItems } from '../actions';
 import { removeItem } from '../api/removeItem';
-import HighlightOffIcon from '@mui/icons-material/HighlightOff';
 
 const ItemList = () => {
 
 const theme = useTheme();
     
 const dispatch = useDispatch<ThunkDispatch<{}, {}, AnyAction>>();
-const ITEMS = useSelector(getItems());
+// const ITEMS = useSelector(getItems());
 
 const handleCreateItem = () => {
     createItem().then((items) => dispatch(initItems(items || [])));
@@ -35,7 +33,7 @@ const handleRemoveItem = (id: string) => {
                     variant='contained'
                     onClick={handleCreateItem}
                 >
-                {`create - ${ITEMS.length}`}
+                {/* {`create - ${ITEMS.length}`} */}
                 </Button>
             </Grid>
             <Grid item lg={12} md={12} sm={12}>
@@ -44,7 +42,7 @@ const handleRemoveItem = (id: string) => {
                     gap: 1,
                     flexWrap: "wrap"
                 }}>
-                    {
+                    {/* {
                         ITEMS.map((item) => 
                             <Button 
                                 key={item._id}
@@ -55,7 +53,7 @@ const handleRemoveItem = (id: string) => {
                                 {item.name}
                             </Button>
                         )
-                    }
+                    } */}
                 </Box>
             </Grid>
         </Grid>

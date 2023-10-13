@@ -1,7 +1,11 @@
 import { IItem, IItemsState } from "./Items/types";
+import { IDatabaseState } from "./database/types";
+import { IInfo } from "./info/types";
+import { IService } from "./services/types";
+import { ITerapeut } from "./terapeuts/types";
 
 interface GlobalState {
-    items: IItemsState
+    database: IDatabaseState;
 }
 
 interface AppState {
@@ -9,8 +13,12 @@ interface AppState {
 
 interface AppAction {
   type: string;
-  // items
-  items?: IItem[];
+  // terapeuts
+  terapeuts?: ITerapeut[];
+  // infos
+  infos?: IInfo[];
+  // services
+  services?: IService[];
 }
 
 export type { GlobalState, AppAction, AppState };

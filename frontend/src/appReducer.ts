@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
-import { itemsReducer } from './Items/reducer';
+import { databaseReducer } from './database/reducer';
 
 export declare type partialReducer = (partialStore: object) => object;
 
 export const createAppReducer = () => {
   return combineReducers({
-    items: itemsReducer,
+    database: databaseReducer,
   });
 };

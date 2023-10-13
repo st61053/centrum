@@ -11,11 +11,6 @@ export const itemsReducer = (
   action: AppAction
 ) => {
   switch (action.type) {
-    case INIT_ITEMS: 
-    return {
-        ...state,
-        items: action.items
-    }
     default:
       return state;
   }

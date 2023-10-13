@@ -1,0 +1,63 @@
+[
+    {
+        "id": "1",
+        "procedure": "Masáž klasická celková",
+        "duration": "50",
+        "price": "650"
+    },
+    {
+        "id": "2",
+        "procedure": "Masáž reflexních zón",
+        "duration": "20",
+        "price": "400"
+    },
+    {
+        "id": "3",
+        "procedure": "Vyšetření lékařem cílené/komplexní",
+        "duration": "30/60",
+        "price": "500/800"
+    },
+    {
+        "id": "4",
+        "procedure": "Vyšetření lékařem kontrolní",
+        "duration": "15",
+        "price": "300"
+    },
+    {
+        "id": "5",
+        "procedure": "Vyšetření fyzioterapeutem  ",
+        "duration": "30/45",
+        "price": "400/550"
+    },
+    {
+        "id": "6",
+        "procedure": "Zpráva pro komerční pojištění",
+        "duration": "do 30/ nad 30",
+        "price": "300/450"
+    },
+    {
+        "id": "7",
+        "procedure": "Akupunktura vstupní vyšetření",
+        "duration": "45",
+        "price": "500"
+    },
+    {
+        "id": "8",
+        "procedure": "Akupunktura jednotlivá aplikační sezení",
+        "duration": "40",
+        "price": "450"
+    },
+    {
+        "id": "9",
+        "procedure": "Přípravné kondiční cvičení",
+        "duration": "30",
+        "price": "400"
+    },
+    {
+        "id": "10",
+        "procedure": "Orbitrek / Cvičení na přístrojích",
+        "duration": "30",
+        "price": "150"
+    }
+
+]
